@@ -9,14 +9,13 @@
 #---------------------------------#
 
 # version format
-version: 2.1.{build}
+version: 2.1.0-patch{build}
 pull_requests:
   do_not_increment_build_number: true
 
 branches:
   only:
-    - master
-    - coverity_scan
+    - main
 
 #---------------------------------#
 #    environment configuration    #
